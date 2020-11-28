@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 - 100DaysOfCode</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Source Serif Pro', serif;
+        }
+        footer, body>header{
+            background-color: rgb(196, 196, 196);
+            padding: 1%;
+        }
+        img{
+            max-width: 100%;
+            height: 100%;
+            display: block;
+            animation: 2s spotlight;
+        }        
+        @keyframes spotlight {
+            0% { clip-path: circle(20% at -30% 20%);}
+            25% { clip-path: circle(20% at 93% 51%); }
+            50% { clip-path: circle(20% at 12% 84%); }
+            75% { clip-path: circle(20% at 50% 50%); }
+            100% { clip-path: circle(100% at 50% 50%); }
+        }
+        .main-section{
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Day 8 0f 100DaysOfCode</h1>
+    <p>Animating the clip-path property</p>
+    <nav>
+        <ul>
+            <li><a href="http://www.twitter.com/inspiredbash">My Twitter Handle</a></li>
+            <li><a href="http://bash.substack.com">My Artcles</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="main-section">
+        <img src="image_0.jpg" alt="">
+    </section>
+    <footer>
+    <p>&copy; 2020 Creative Bash. All rights reserved.</p>
+    </footer>
+    </div>
+
+</body>
+</html>
